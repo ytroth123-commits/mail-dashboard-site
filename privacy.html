@@ -11,7 +11,7 @@
 <p class="nav"><a href="./">דשבורד מייל</a> · <a href="#en" lang="en" dir="ltr">English</a></p>
 
 <h1>מדיניות פרטיות</h1>
-<p class="sub">עודכן: 25/10/2026</p>
+<p class="sub">עודכן: 26/10/2026</p>
 
 <p>דשבורד מייל הוא תוסף לדפדפן Chrome שמציג במקום אחד מה מחכה לטיפול בתיבת ה־Gmail שלך. התוסף רץ כולו בדפדפן שלך. <strong>אין לו שרת, והמפתח שלו לא מקבל, לא רואה ולא שומר שום מידע שלך.</strong></p>
 
@@ -25,7 +25,13 @@
 <p>רק במחשב שלך, באחסון של Chrome (‏<code>chrome.storage</code> ו־IndexedDB). הסימונים, ההערות, ההגדרות והאינדקס לא נשלחים לשום מקום. "נתק את החשבון" בתוסף מוחק את הנתונים של החשבון מהמחשב, והסרת התוסף מוחקת הכול.</p>
 
 <h2>סיכומי AI (לא חובה, כבוי כברירת מחדל)</h2>
-<p>רק אם תדביק מפתח API משלך ל־Google Gemini ותפעיל את האפשרות, התוסף שולח ישירות מהדפדפן שלך ל־Gemini (‏<code>generativelanguage.googleapis.com</code>) את הנושא ואת תחילת המיילים שנבחרו לסיכום, או רק את הנושא, לפי הבחירה שלך. כדי לבדוק אם מייל ששלחת באמת מחכה לתשובה, נשלחים ההודעה האחרונה שלך בשרשור וההודעה שלפניה. אם תפעיל גם "מעקב הבטחות", נשלחים גם מיילים ששלחת וקיבלת מאנשי קשר פעילים. אפשר להחריג שולחים ותוויות. השליחה כפופה לתנאים של Google לשימוש במפתח שלך. מפתח ה־API נשמר רק בדפדפן שלך.</p>
+<p>רק אם תדביק מפתח API משלך ל־Google Gemini ותפעיל את האפשרות, התוסף שולח ישירות מהדפדפן שלך ל־Gemini (‏<code>generativelanguage.googleapis.com</code>):</p>
+<ul>
+  <li><strong>לסיכום מייל:</strong> הנושא, ועד שלוש ההודעות האחרונות בשרשור, עם השם והכתובת של כל כותב ושמות הקבצים המצורפים (עד 2,000 תווים). במצב המקוצר: רק הנושא, השולח ותקציר קצר.</li>
+  <li><strong>לבדיקה אם מייל ששלחת באמת מחכה לתשובה</strong> (רק כשכלל פשוט לא הכריע): ההודעה האחרונה שלך בשרשור, שמות הנמענים, וההודעה שלפניה עם השולח שלה (עד 1,500 תווים כל אחת).</li>
+  <li><strong>אם תפעיל גם "מעקב הבטחות":</strong> מיילים ששלחת וקיבלת מאנשי קשר פעילים בטווח הימים שבחרת, עם השמות, תוכן ההודעות ושמות הקבצים המצורפים.</li>
+</ul>
+<p>שולחים, דומיינים ותוויות שתחריג לא נשלחים באף אחד מהמסלולים. השליחה כפופה לתנאים של Google לשימוש במפתח שלך. מפתח ה־API נשמר רק בדפדפן שלך.</p>
 
 <h2>מה לא קורה</h2>
 <ul>
@@ -45,7 +51,7 @@
 
 <section id="en" lang="en" dir="ltr">
 <h1>Privacy Policy</h1>
-<p class="sub">Last updated: October 25, 2026</p>
+<p class="sub">Last updated: October 26, 2026</p>
 
 <p>Mail Dashboard is a Chrome extension that shows, in one place, what needs your attention in your Gmail inbox. It runs entirely in your browser. <strong>It has no server, and its developer never receives, sees or stores any of your data.</strong></p>
 
@@ -59,7 +65,13 @@
 <p>Only on your computer, in Chrome's local storage (<code>chrome.storage</code> and IndexedDB). Your marks, notes, settings and index are never sent anywhere. "Disconnect account" deletes that account's data from the computer; uninstalling the extension deletes everything.</p>
 
 <h2>AI summaries (optional, off by default)</h2>
-<p>Only if you paste your own Google Gemini API key and turn the feature on, the extension sends, directly from your browser to Gemini (<code>generativelanguage.googleapis.com</code>), the subject and beginning of the messages selected for summary, or only the subject, as you choose. To check whether a message you sent is really awaiting a reply, your last message in the thread and the one before it are sent. If you also enable "promise tracking", sent and received messages with active contacts are included. You can exclude senders and labels. This is governed by Google's terms for your own API key. The key is stored only in your browser.</p>
+<p>Only if you paste your own Google Gemini API key and turn the feature on, the extension sends, directly from your browser to Gemini (<code>generativelanguage.googleapis.com</code>):</p>
+<ul>
+  <li><strong>To summarize a message:</strong> the subject and up to the last three messages in the thread, with each author's name and address and attachment file names (up to 2,000 characters). In short mode: only the subject, sender and a short snippet.</li>
+  <li><strong>To check whether a message you sent is really awaiting a reply</strong> (only when a simple rule could not decide): your last message in the thread, the recipients' names, and the message before it with its sender (up to 1,500 characters each).</li>
+  <li><strong>If you also enable "promise tracking":</strong> sent and received messages with active contacts within the chosen number of days, with names, message text and attachment file names.</li>
+</ul>
+<p>Senders, domains and labels you exclude are not sent in any of these. This is governed by Google's terms for your own API key. The key is stored only in your browser.</p>
 
 <h2>What does not happen</h2>
 <ul>
